@@ -12,6 +12,7 @@ import java.util.Date;
  *
  * @author Ryuu
  */
+//Sort using comparable if using comparable in TaskControl - stop implements Comparable
 public class Task implements Comparable<Task>{
 
     private int ID;
@@ -116,7 +117,8 @@ public class Task implements Comparable<Task>{
                 Assignee,
                 Reviewer);
     }
-
+    
+    //Toán tử 3 ngôi có thể thay thế dòng 126
     //this.getID() > o.getID() ? -1 : 1
     
     @Override
