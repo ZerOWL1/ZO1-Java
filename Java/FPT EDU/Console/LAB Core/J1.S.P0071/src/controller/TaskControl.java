@@ -284,6 +284,11 @@ public class TaskControl implements ITask {
 //                    listTask.get(i).getReviewer()
 //            );
 //        }
+        
+        /**
+        * Sort using comparator
+        * if open this comment stop implement Comparable in Task Object
+        */
 //        Collections.sort(listTask, new Comparator<Task>() {
 //            @Override
 //            public int compare(Task t1, Task t2) {
